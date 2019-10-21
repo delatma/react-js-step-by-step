@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -11,6 +12,7 @@ function App() {
           <button onClick={event => {alert("now you know how to handle onclick event")}}>
             HELLO WORLD
           </button>
+          <p>Number: 0</p>
         </p>
       </header>
     </div>
