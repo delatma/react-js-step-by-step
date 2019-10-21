@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <button>
+          <button onClick={event => {alert("now you know how to handle onclick event")}}>
             HELLO WORLD
           </button>
         </p>
